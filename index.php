@@ -1,5 +1,3 @@
- <?php
-    $x = 10;
 <!DocTYPE html>
 <html>
 <head>
@@ -11,7 +9,6 @@
     $x = $_GET["x"];
     $y = $_GET["y"];
     $y = 11;
-    echo "x == y: " . ($x==$y) . "<br>";
     echo "x: " . $x . "<br>";
     echo "y: " . $y . "<br>";
     echo "x+y: " . ($x+$y) . "<br>";
@@ -22,8 +19,8 @@
     echo "x++: " . ($x++) . "<br>";
     echo "++y: " . (++$y) . "<br>";
     echo "x == y: " . ($x == $y) . "<br>";
-    echo "x != y: " . ($x != y) . "<br>";
-    echo "x < y: " . ($x < y) . "<br>";
+    echo "x != y: " . ($x != $y) . "<br>";
+    echo "x < y: " . ($x < $y) . "<br>";
     echo "x > y: " . ($x > $y) . "<br>";
     echo "x <= y: " . ($x <= $y) . "<br>";
     echo "x >= y: " . ($x >= $y) . "<br>";

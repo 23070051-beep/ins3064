@@ -11,6 +11,7 @@
     $course = array("JAVA", "PHP", "HTML", "CSS", "JavaScript");
     echo     "Name:" . $name . ", age:" . $age .
              "<br>3rd courses is " . $course[2];
+ <?php
     $x = 10;
     $y = 11;
     echo "x == y: " . ($x==$y) . "<br>";

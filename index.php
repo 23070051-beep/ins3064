@@ -8,7 +8,6 @@
     <?php
     $x = $_GET["x"];
     $y = $_GET["y"];
-    $y = 11;
     echo "x: " . $x . "<br>";
     echo "y: " . $y . "<br>";
     echo "x+y: " . ($x+$y) . "<br>";
